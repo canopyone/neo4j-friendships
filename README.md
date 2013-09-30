@@ -111,6 +111,7 @@ You can get the user node if you want to use Neography to implement custom metho
 ## TO-DO
 
 1- Provide Tests for acts_as_follower methods
+
 2- Feel free to send suggestions to tarek.samni [at] gmail.com
 
 
