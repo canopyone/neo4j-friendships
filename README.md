@@ -1,25 +1,20 @@
 
-=======
-neo4j-friendships
-=================
 # Neo4j::Friendships
 
-neo4j-friendships is a Ruby Gem that allows you to use neo4j database to store users data, relationships and suggest friends based on current relationships.
+neo4j-friendships is a Ruby Gem for Ruby On Rails (ROR) that allows you to use neo4j database to store users relationships and suggest friends based on current relationships.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
+	gem 'neography'
     gem 'neo4j-friendships'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install neo4j-friendships
-
+    $ rails g friendship User
+Replace User with the user model name
 ## Usage
 
 TODO: Write usage instructions here
